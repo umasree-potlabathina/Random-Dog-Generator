@@ -1,0 +1,87 @@
+#header {
+    padding: 5px;
+    background-color: #f0e5db;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma;
+    margin-bottom: 1rem;
+
+    color: #8f5a29;
+}
+
+#dogButton {
+ padding: 4px 8px;
+ border-radius: 5%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 15px;
+
+ cursor: pointer;
+ margin: auto;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#dogButton:hover {
+    padding: 4px 10px;
+}
+
+#dogButton:active {
+    opacity: 0.5;
+}
+
+#dogDiv {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+/* Dark Mode */
+#darkmodeButton {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.darkBackground {
+ background-color: #312502;
+ color: #c5a279;
+}
+
+.darkButton {
+    background-color: #f7c387;
+    color: #3b2b13;
+    box-shadow: 2px 2px hwb(45 36% 59% / 0.445);
+    border: none;
+}
+
+/* Light Mode */
+#lightmodeButton {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lightBackground {
+ background-color: #fcf7f2;
+ color: #312502;
+}
+
+.lightButton {
+    background-color: #704924;
+    color: #fffcf8;
+    box-shadow: 2px 2px rgba(104, 100, 92, 0.11);
+    border: none;
+    cursor: pointer;
+}
+
+
