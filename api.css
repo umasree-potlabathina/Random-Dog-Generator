@@ -5,7 +5,7 @@
     font-size: 26px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     color: #8f5a29;
 }
@@ -33,7 +33,7 @@
 }
 
 #dogDiv {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
