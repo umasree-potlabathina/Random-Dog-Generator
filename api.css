@@ -1,0 +1,94 @@
+#header {
+    padding: 8px;
+    background-color: #f0e5db;
+    text-align: center;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma;
+    margin-bottom: 2rem;
+
+    color: #8f5a29;
+    box-shadow: 2px 2px 2px rgba(165, 108, 42, 0.);
+}
+
+#dogButton {
+ padding: 5px 8px;
+ border-radius: 2px;
+ font-size: 20px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ cursor: pointer;
+ border: none;
+ margin: auto;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ box-shadow: 2px 2px 2px rgba(165, 108, 42, 0.445);
+}
+
+#dogButton:hover {
+    padding: 5px 10px;
+}
+
+#dogButton:active {
+    opacity: 0.8;
+}
+
+#dogDiv {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(165, 108, 42, 0.3);
+}
+
+/* Bottom Buttons */
+.bb {
+    position: fixed;
+    bottom: 10px;
+
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(165, 108, 42, 0.445);
+}
+
+/* Dark Mode */
+#darkmodeButton {
+    right: 10px;
+}
+
+.darkBackground {
+ background-color: #312502;
+ color: #c5a279;
+}
+
+.darkButton {
+    background-color: #f7c387;
+    color: #3b2b13;
+}
+
+/* Light Mode */
+#lightmodeButton {
+    left: 10px;
+}
+
+.lightBackground {
+ background-color: #fcf7f2;
+ color: #312502;
+}
+
+.lightButton {
+    background-color: #704924;
+    color: #fffcf8;
+}
+
+
