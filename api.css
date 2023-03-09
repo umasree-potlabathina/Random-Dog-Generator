@@ -50,9 +50,9 @@ img {
 /* Bottom Buttons */
 .bb {
     position: fixed;
-    bottom: 10px;
+    bottom: 18px;
 
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
 
