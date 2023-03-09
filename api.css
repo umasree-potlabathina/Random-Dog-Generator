@@ -2,7 +2,7 @@
     padding: 5px;
     background-color: #f0e5db;
     text-align: center;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma;
     margin-bottom: 1rem;
@@ -14,7 +14,7 @@
  padding: 4px 8px;
  border-radius: 5%;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: 15px;
+ font-size: 25px;
 
  cursor: pointer;
  margin: auto;
@@ -46,9 +46,10 @@ img {
 /* Dark Mode */
 #darkmodeButton {
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10px;
+    right: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .darkBackground {
@@ -66,9 +67,10 @@ img {
 /* Light Mode */
 #lightmodeButton {
     position: fixed;
-    bottom: 5px;
-    left: 5px;
+    bottom: 10px;
+    left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .lightBackground {
